@@ -7,6 +7,7 @@ package com.jm.java.basic;
  */
 public class FileHeader {
     public static void main(String[] args) {
-
+        String name = System.getProperty("user.name");
+        System.out.println(name);
     }
 }
