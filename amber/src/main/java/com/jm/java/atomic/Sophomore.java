@@ -8,6 +8,6 @@ package com.jm.java.atomic;
  */
 public class Sophomore {
     public static void main(String[] args) {
-
+        Object[] objects = new Object[]{"","d"};
     }
 }
