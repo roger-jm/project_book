@@ -21,4 +21,15 @@ public class MapTest {
         assertEquals("33", ss);
         assertEquals(2,map.size());
     }
+
+    @Test
+    public void testClear() throws Exception {
+        Map<String,String> map = new HashMap<>();
+        map.put("12","dd");
+        map.put("13","dd");
+        map.put("14","dd");
+        assertEquals(3,map.size());
+        map.clear();
+        assertEquals(0,map.size());
+    }
 }
